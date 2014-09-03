@@ -17,7 +17,7 @@ public class App implements ApplicationListener {
     public static Renderer renderer;
     public static World world;
     public static Physics physics;
-public static InputProcessor inputProcessor;
+    public static InputProcessor inputProcessor;
 
     public static FPSLogger fpsLogger;
 

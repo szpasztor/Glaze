@@ -40,7 +40,7 @@ project(":desktop") {
         compile "com.badlogicgames.gdx:gdx-box2d-platform:$gdxVersion:natives-desktop"
     }
 }
-
+/*
 project(":android") {
     apply plugin: "android"
 
@@ -58,7 +58,8 @@ project(":android") {
         natives "com.badlogicgames.gdx:gdx-box2d-platform:$gdxVersion:natives-x86"
     }
 }
-
+*/
+/*
 project(":html") {
     apply plugin: "gwt"
     apply plugin: "war"
@@ -73,7 +74,7 @@ project(":html") {
         compile "com.badlogicgames.gdx:gdx-box2d-gwt:$gdxVersion:sources"
     }
 }
-
+*/
 project(":core") {
     apply plugin: "java"
 

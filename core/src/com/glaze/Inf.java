@@ -8,7 +8,12 @@ import com.badlogic.gdx.Gdx;
  * Date: 9/4/13
  */
 public abstract class Inf {
-    public static final String TAG = "Graph";
+
+    public static final String TAG = "Glaze";
+    public static final String APP_NAME = "Glaze";
+    public static final String VERSION_NAME = "1.0";
+    public static final int VERSION_CODE = 1;
+
     public static final Application.ApplicationType platform;
 
     static {
